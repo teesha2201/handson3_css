@@ -1,0 +1,194 @@
+body{
+
+    background-color: rgb(118, 118, 118);
+}
+#box1
+{
+
+    width:450px;
+    height: 150px;
+    background-color:rgb(255,255,255);
+    color:rgb(139,37,95);
+    font-family:fantasy;
+    font-weight:bold;
+    font-style: italic;
+    border: 7px solid rgb(231,49,45) ;
+    border-radius: 18px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 8px 8px 1px rgb(101, 43, 100) ;
+}
+.green_rectangle
+{
+    width: 1432x;
+    height: 600px;
+    border: 7px solid rgb(49, 116,28);
+}
+.square
+{
+    width: 225px;
+    height: 225px;
+    background-color:rgb(255,255,255);
+    border: 7px solid rgb(231,49,45) ;
+    border-radius: 18px;
+    box-shadow: 8px 8px 1px rgb(101, 43, 100) ;
+   /* display:flex;*/
+   /*justify-content:left;*/
+ 
+}
+.block1
+{
+   /* width: inherit;
+    height: inherit;
+    background-color:inherit;
+    border:inherit ;
+    border-radius: inherit;
+    box-shadow:inherit;*/
+   
+   /* flex-direction: column;*/
+  /* flex-grow: 1;*/
+    font-family:serif;
+    font-weight:bolder;
+    font-size: larger;
+    color:rgb(30,0,31);
+    text-align: center;
+    margin-top:40px ;
+    padding-left:2px;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 2px rgb(147, 62, 146) ;
+    /*justify-content: inherit;*/
+}
+.block2{
+    /*flex-grow: 1;*/
+    width: inherit;
+    height: inherit;
+    background-color: inherit;
+    border-radius: inherit;
+    border: inherit;
+    box-shadow: inherit;
+    text-align: center;
+    margin: -245px 0px 0px 1150px;
+   /*justify-content: inherit;*/
+    /*flex-wrap: wrap;*/
+}
+
+img
+{
+    width : 200px;
+    height: 200px;
+    
+}
+
+.block3
+{
+    width: inherit;
+    height: inherit;
+    background-color:inherit;
+    border: inherit;
+    border-radius: inherit;
+    box-shadow: inherit ;
+    margin: 50px 0px 0px 0px;
+    font-family:serif;
+    font-weight:bolder;
+    font-size: larger;
+    color:rgb(30,0,31);
+    text-align: center;
+    padding-left:2px;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 2px rgb(147, 62, 146) ;
+}
+.fix
+{
+    width:450px;
+    /*height: 80px;*/
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight:bolder;
+    background-color:rgb(160,243,60) ;
+    color: rgb(129,37,24);
+    border: inherit;
+    box-shadow: inherit;
+    border-radius: inherit;
+    margin-left:500px;
+    margin-top: -200px;
+    padding:0px 20px 0px 20px;
+    position: fixed;
+}
+
+.block4
+{
+    width: inherit;
+    height: inherit;
+    background-color: inherit;
+    border-radius: inherit;
+    border: inherit;
+    box-shadow: inherit;
+    text-align: center;
+    margin: -245px 0px 0px 1150px;    
+    font-family:serif;
+    font-weight:bolder;
+    font-size: larger;
+    color:rgb(30,0,31);
+    padding-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(147, 62, 146) ; 
+    line-height:20px;  
+}
+
+.box2
+{
+    margin-top:20px;
+    margin-left:450px;
+    margin-bottom: 20px;
+    width:600px;
+    height: 600px;
+    border:7px solidrgb(118,38,115);
+    background-color: rgb(50,118,27);
+    border:7px solid rgb(118,38,115);
+}
+
+#welcome
+{
+    font-family:serif;
+    color:rgb(0,0,43);
+    padding:8px 0px 0px 200px ;
+    
+}
+#parent2
+{
+    display:flex;
+    justify-content:space-evenly;
+    /*flex-wrap: wrap;*/
+    flex-direction:row;
+    text-align: center;
+    font-style: italic;
+    line-height: 30px;
+    
+    
+    
+    
+}
+.child
+{
+    width:290px;
+    height:240px;
+    background-color:rgb(237,226,128) ;
+    color: black;
+  
+   /*background-color:inherit ;
+     color: inherit;
+     box-sizing: border-box;
+     flex-direction: column;
+     flex-wrap: nowrap;*/
+}
+.anotherdiv
+{
+    width:600px;
+    height: 270px;
+    background-color:rgb(237,226,128) ;
+    color: black;
+    text-align:center;
+    font-style: italic;
+    line-height:30px;  
+ 
+}
