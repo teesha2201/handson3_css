@@ -132,9 +132,13 @@ img
     padding-bottom: 20px;
     text-align: center;
     text-shadow: 2px 2px 2px rgb(147, 62, 146) ; 
-    line-height:20px;  
+    line-height:10px;  
 }
 
+#submit{ 
+    border-radius : 25px;
+    background-color: brown;
+}
 .box2
 {
     margin-top:20px;
