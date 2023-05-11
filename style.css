@@ -138,6 +138,10 @@ img
 #submit{ 
     border-radius : 25px;
     background-color: brown;
+    cursor:pointer;
+}
+#submit:hover{
+    background-color: aqua;
 }
 .box2
 {
